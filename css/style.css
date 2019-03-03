@@ -213,3 +213,96 @@
 .cardlowerdiv i {
     margin-left: 100px;
 }
+
+
+
+.transaction_chat_div {
+    display: flex;
+}
+
+
+
+.trans {
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    width: 700px;
+    padding: 20px;
+}
+
+table {
+    margin: 20px;
+    border-collapse: collapse;
+}
+
+caption {
+    text-align: left;
+    padding: 0px 10px 20px 0px;;
+}
+
+td,th {
+    text-align: left;
+    border-top: 2px solid gray;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 20px;
+    padding-left: 35px;
+}
+
+.imgflex {
+    display: flex;
+}
+
+.imgflex img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.imgflex p {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.r {
+    border-radius: 5px;
+    padding: 2px;
+    color: white;
+    
+}
+
+.edit {
+    color: white;
+    background: #6666ff;
+    border-radius: 1px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.yellow {
+    background: #ff9900;
+}
+
+.blue {
+    background: #6666ff;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: #54a075;
+}
+
+
+.chatdiv {
+    flex: 1;
+    background: white;
+    margin: 20px 22px 20px 0px;
+    border-radius: 10px;
+    padding: 20px;
+}
