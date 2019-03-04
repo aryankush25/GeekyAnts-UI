@@ -87,8 +87,8 @@
 }
 
 .searchdiv {
-    margin-left: 690px;
-    margin-top: 13px;
+    margin-left: 570px;
+    margin-top: 14px;
 }
 
 .searchdiv input {
@@ -101,7 +101,13 @@
 }
 
 .languagediv {
-    
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.languagediv img{
+    height: 15px;
+    width: 20px;
 }
 
 .fullscreendiv {
@@ -146,7 +152,7 @@
 }
 
 .settingsdiv button {
-    background-color: #6666ff;
+    background-color: #5868BF;
     color: white;
     border: none;
     padding: 8px 12px;
@@ -163,7 +169,7 @@
 .carddiv {
     width: 250px;
     height: 150px;
-    background: #6666ff;
+    background: #5868BF;
     margin-left: 20px;
     margin-right: 27px;
     border-radius: 10px;
@@ -189,7 +195,7 @@
 
 .tagdiv {
     margin-left: 20px;
-    color: #00b300;
+    color: #70a588;
 }
 
 .fa-arrow-up {
@@ -227,6 +233,7 @@
     margin: 20px;
     border-radius: 10px;
     width: 700px;
+    height: 400px;
     padding: 20px;
 }
 
@@ -305,4 +312,81 @@ td,th {
     margin: 20px 22px 20px 0px;
     border-radius: 10px;
     padding: 20px;
+    height: 400px;
+}
+
+.chating {
+    overflow: auto;
+    height: 330px;
+}
+
+.headingchat{
+    background: white;
+    width: inherit;
+    height: 30px;
+}
+
+.pptextdivodd {
+    margin-top: 15px;
+    display: flex;
+}
+
+.pptextdivodd .ppdiv img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.pptextdivodd .textdiv {
+    padding: 10px;
+    background: #b1c9ef;
+    border-radius: 10px;
+}
+
+.pptextdiveven {
+    margin-top: 15px;
+    display: flex;
+}
+
+.pptextdiveven .textdiv {
+    padding: 10px;
+    background: #b1c9ef;
+    border-radius: 10px;
+    margin-left: 230px;
+}
+
+.pptextdiveven .ppdiv img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.chattext {
+    padding: 10px 0px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.chattext input{
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 15px; 
+    width: 250px;
+    height: 15px;
+    font-size: 13px;
+}
+
+.chattext button {
+    background-color: #70a588;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 3px;
+    margin-left: 77px;
 }
