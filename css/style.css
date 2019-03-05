@@ -60,6 +60,7 @@
 .headerdiv {
     background: #F1F7F7;
     display: flex;
+    justify-content: center;
 }
 
 .headerdiv header {
@@ -82,18 +83,20 @@
 
 .nonsearchdiv {
     display: flex;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-right: 10px;
 }
 
 .menuicon {
-    margin-left: 10px;
+    margin-left: 0px;
+    margin-top: 3px;
     padding: 20px;
     font-size: 20px;
 }
 
 .creatediv {
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-top: 5px;
     padding: 15px 0px;
     width: 80px;
 }
@@ -191,6 +194,7 @@
 .cardsdiv {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .carddiv {
@@ -253,6 +257,7 @@
 .transaction_chat_div {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -342,6 +347,7 @@ td,th {
     border-radius: 10px;
     padding: 20px;
     height: 400px;
+    max-width: 350px;
 }
 
 .chating {
@@ -427,4 +433,22 @@ button, input {
 
 button:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 830px) {
+    .leftdiv {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .searchdiv {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .languagediv {
+        display: none;
+    }
 }
