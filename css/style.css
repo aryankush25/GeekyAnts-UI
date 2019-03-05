@@ -87,7 +87,7 @@
 }
 
 .menuicon {
-    margin-left: 20px;
+    margin-left: 10px;
     padding: 20px;
     font-size: 20px;
 }
@@ -252,6 +252,7 @@
 
 .transaction_chat_div {
     display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -260,7 +261,7 @@
     background: white;
     margin: 20px;
     border-radius: 10px;
-    width: 700px;
+    overflow: auto;
     height: 400px;
     padding: 20px;
 }
@@ -337,7 +338,7 @@ td,th {
 .chatdiv {
     flex: 1;
     background: white;
-    margin: 20px 22px 20px 0px;
+    margin: 20px;
     border-radius: 10px;
     padding: 20px;
     height: 400px;
@@ -363,7 +364,6 @@ td,th {
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    margin-right: 15px;
     margin-top: 5px;
 }
 
@@ -376,13 +376,13 @@ td,th {
 .pptextdiveven {
     margin-top: 15px;
     display: flex;
+    flex-direction: row-reverse;
 }
 
 .pptextdiveven .textdiv {
     padding: 10px;
     background: #b1c9ef;
     border-radius: 10px;
-    margin-left: 230px;
 }
 
 .pptextdiveven .ppdiv img {
@@ -397,15 +397,17 @@ td,th {
     padding: 10px 0px;
     background: white;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .chattext input{
     border-radius: 5px;
     border: 1px solid grey;
-    padding: 15px; 
-    width: 250px;
+    padding: 15px 0px 15px 15px;
     height: 15px;
     font-size: 13px;
+    flex: 1;
 }
 
 .chattext button {
@@ -416,7 +418,7 @@ td,th {
     text-align: center;
     font-size: 13px;
     border-radius: 3px;
-    margin-left: 77px;
+    margin-left: 10px;
 }
 
 button, input {
