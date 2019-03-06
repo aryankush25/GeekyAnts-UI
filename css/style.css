@@ -385,6 +385,7 @@ td,th {
     padding: 10px;
     background: #b1c9ef;
     border-radius: 10px;
+    margin-left: 15px;
 }
 
 .pptextdiveven {
@@ -397,6 +398,7 @@ td,th {
     padding: 10px;
     background: #b1c9ef;
     border-radius: 10px;
+    margin-left: 15px;
 }
 
 .pptextdiveven .ppdiv img {
