@@ -4,12 +4,13 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
         <div class="container">
             <div class="leftdiv">
                 <nav>
-                    <a href="/">
+                    <a href="">
                         <h1 class="leftheading">GeekyAnts</h1>
                     </a>
 
@@ -17,15 +18,15 @@
 
                         <h5><small>MAIN</small></h5>
 
-                        <div> <i class="fas fa-home"></i> <a href="/">Dashboard</a> </div>
-                        <div> <i class="fas fa-calendar-alt"></i> <a href="/">Calendar</a> </div>
-                        <div> <i class="fas fa-envelope-square"></i> <a href="/">Email</a> </div>
-                        <div> <i class="fas fa-box-open"></i> <a href="/">UI Elements</a> </div>
-                        <div> <i class="fab fa-wpforms"></i> <a href="/">Forms</a> </div>
-                        <div> <i class="fas fa-chart-pie"></i> <a href="/">Charts</a> </div>
-                        <div> <i class="fas fa-table"></i> <a href="/">Tables</a> </div>
-                        <div> <i class="far fa-smile-beam"></i> <a href="/">Icons</a> </div>
-                        <div> <i class="fas fa-map-marker-alt"></i> <a href="/">Maps</a> </div>
+                        <a href="/"><div> <i class="fas fa-home"></i> Dashboard </div></a>
+                        <a href="/"><div> <i class="fas fa-calendar-alt"></i> Calendar </div></a>
+                        <a href="/"><div> <i class="fas fa-envelope-square"></i> Email </div></a>
+                        <a href="/"><div> <i class="fas fa-box-open"></i> UI Elements </div></a>
+                        <a href="/"><div> <i class="fab fa-wpforms"></i> Forms </div></a>
+                        <a href="/"><div> <i class="fas fa-chart-pie"></i> Charts </div></a>
+                        <a href="/"><div> <i class="fas fa-table"></i> Tables </div></a>
+                        <a href="/"><div> <i class="far fa-smile-beam"></i> Icons </div></a>
+                        <a href="/"><div> <i class="fas fa-map-marker-alt"></i> Maps </div></a>
 
                     </div>
                 </nav>
@@ -300,6 +301,14 @@
 
             </div>
         </div>
-    
+
+        <script>
+            $(document).ready(function(){
+              $(".menuicon").click(function(){
+                $(".leftdiv").toggleClass("togglemenu");
+              });
+            });
+        </script>
+        
     </body>
 </html>

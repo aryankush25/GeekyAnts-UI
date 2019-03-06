@@ -57,6 +57,8 @@
     overflow: auto;
 }
 
+/*Header CSS*/
+
 .headerdiv {
     background: #F1F7F7;
     display: flex;
@@ -84,7 +86,7 @@
 .nonsearchdiv {
     display: flex;
     margin-left: 0px;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .menuicon {
@@ -113,7 +115,7 @@
 
 .searchdiv {
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 15px;
     margin-top: 14px;
 }
 
@@ -127,7 +129,7 @@
 }
 
 .languagediv {
-    margin-top: 25px;
+    margin-top: 24px;
     width: 92px;
 }
 
@@ -137,19 +139,19 @@
 }
 
 .fullscreendiv {
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 24px;
     font-size: 20px;
 }
 
 .belldiv {
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 25px;
     font-size: 20px;
 }
 
 .profilediv {
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 12px;
 }
 
@@ -159,7 +161,9 @@
     border-radius: 50%;
 }
 
+/*Bottom Div CSS*/
 
+/*Heading Div CSS*/
 
 .headingdiv {
     display: flex;
@@ -196,6 +200,8 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+/*Cards Div CSS*/
 
 .carddiv {
     width: 250px;
@@ -253,6 +259,7 @@
 }
 
 
+/*Transaction And Chat Divs*/
 
 .transaction_chat_div {
     display: flex;
@@ -260,7 +267,7 @@
     justify-content: center;
 }
 
-
+/*Transaction Div*/
 
 .trans {
     background: white;
@@ -339,6 +346,7 @@ td,th {
     background: #54a075;
 }
 
+/*Chat Div*/
 
 .chatdiv {
     flex: 1;
@@ -427,11 +435,13 @@ td,th {
     margin-left: 10px;
 }
 
+/*Designing CSS*/
+
 button, input {
   outline: none;
 }
 
-button:hover {
+button:hover, .menuicon i, .languagediv i, .fullscreendiv i, .belldiv i, .profilediv img, .edit {
     cursor: pointer;
 }
 
@@ -441,7 +451,7 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 595px) {
     .searchdiv {
         display: none;
     }
@@ -451,4 +461,10 @@ button:hover {
     .languagediv {
         display: none;
     }
+}
+
+/*CSS Classes for jQuery*/
+
+.togglemenu {
+    display: none;
 }
